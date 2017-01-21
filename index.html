@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Just a boring loan application form.</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+  	<form action="javascript:void(0);">
+			<fieldset>
+				<legend>LOAN APPLICATION:</legend>
+				
+				<label for="firstname">Applicant First Name:</label>
+				<br>
+				<input type="text" name="firstname" required value="">
+
+				<br>
+
+				<label for="middlename">Applicant Middle Name:</label>
+				<br>
+				<input type="text" name="middlename" required value="">
+
+				<br>
+
+				<label for="lastname">Applicant Last Name:</label>
+				<br>
+				<input type="text" name="lastname" required value="">
+
+				<br>
+
+				<label for="address">Applicant Address:</label>
+				<br>
+				<input type="text" name="address" required value="">
+
+				<br>
+
+				<label for="occupation">Applicant Occupation:</label>
+				<br>
+				<input type="text" name="occupation" required value="">
+
+				<br>
+
+				<label for="employer">Applicant Employer:</label>
+				<br>
+				<input type="text" name="employer" required value="">
+
+				<br>
+
+				<label for="employeraddress">Employer Address:</label>
+				<br>
+				<input type="text" name="employeraddress" required value="">
+
+				<br><br>
+
+				<label for="loantype">Type of Loan:</label>
+				<select name="loantype">
+					<option value="">Commercial</option>
+					<option value="">Real Estate</option>
+					<option value="">Personal</option>
+					<option value="">Mortgage</option>
+
+				</select>
+
+				<br><br>
+
+				<label for="amount">Requested Amount of Loan:</label>
+				<br>
+				<input type="text" name="amount" required value="">
+ 
+				<br>
+
+				Loan Length:
+				5 years<input type="radio" name="years" value="1" placeholder="1">
+				15 years<input type="radio" name="years" value="2" placeholder="2">
+				30 years<input type="radio" name="years" value="3" placeholder="3">
+
+				<br>
+
+				Special Conditions:
+				<label for="downpayment">I have a down payment</label>
+				<input type="checkbox" name="downpayment" value="Down payment">
+				<label for="outofstate">Out-of-state resident</label>
+				<input type="checkbox" name="outofstate" value="Out-of-state resident">
+				<label for="coding">Married</label>
+				<input type="checkbox" name="married" value="Married">
+				<label for="coding">Loan will be co-signed</label>
+				<input type="checkbox" name="cosigned" value="Loan will be co-signed">
+
+				<br>
+
+				<label for="comments">Comments:</label>
+				<br>
+				<textarea name="comments"></textarea>
+				<br>
+				<label for="tel">Applicant Telephone Number:</label>
+				<br>
+				<input type="tel" name="tel" required />
+				<br>
+				<label for="email">Applicant Email Address:</label>
+				<br>
+				<input type="email" name="email" required placeholder="you@example.com" />
+				<br>
+				<label for="url">Applicant LinkedIn URL:</label>
+				<br>
+				<input type="url" name="website" required placeholder="http://www.linkedin.com/you"/>
+
+			</fieldset>
+
+			<br>
+            <button type="submit">Submit</button>
+
+		</form>
+
+  </body>
+  </html>
