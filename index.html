@@ -10,29 +10,50 @@
   	<form action="javascript:void(0);">
 			<fieldset>
 				<legend>LOAN APPLICATION:</legend>
+				
 				<label for="firstname">Applicant First Name:</label>
-				<input type="text" name="firstname" value="">
+				<br>
+				<input type="text" name="firstname" required value="">
+
+				<br>
 
 				<label for="middlename">Applicant Middle Name:</label>
-				<input type="text" name="middlename" value="">
+				<br>
+				<input type="text" name="middlename" required value="">
+
+				<br>
 
 				<label for="lastname">Applicant Last Name:</label>
-				<input type="text" name="lastname" value="">
+				<br>
+				<input type="text" name="lastname" required value="">
+
+				<br>
 
 				<label for="address">Applicant Address:</label>
-				<input type="text" name="address" value="">
+				<br>
+				<input type="text" name="address" required value="">
+
+				<br>
 
 				<label for="occupation">Applicant Occupation:</label>
-				<input type="text" name="occupation" value="">
+				<br>
+				<input type="text" name="occupation" required value="">
+
+				<br>
 
 				<label for="employer">Applicant Employer:</label>
-				<input type="text" name="employer" value="">
+				<br>
+				<input type="text" name="employer" required value="">
+
+				<br>
 
 				<label for="employeraddress">Employer Address:</label>
-				<input type="text" name="employeraddress" value="">
+				<br>
+				<input type="text" name="employeraddress" required value="">
 
+				<br><br>
 
-				<label for="loantype">Type of Loan</label>
+				<label for="loantype">Type of Loan:</label>
 				<select name="loantype">
 					<option value="">Commercial</option>
 					<option value="">Real Estate</option>
@@ -41,15 +62,22 @@
 
 				</select>
 
+				<br><br>
+
 				<label for="amount">Requested Amount of Loan:</label>
-				<input type="text" name="amount" value="">
+				<br>
+				<input type="text" name="amount" required value="">
  
-				<h5>Loan Length:</h5>
+				<br>
+
+				Loan Length:
 				5 years<input type="radio" name="years" value="1" placeholder="1">
 				15 years<input type="radio" name="years" value="2" placeholder="2">
 				30 years<input type="radio" name="years" value="3" placeholder="3">
 
-				<h5>Special Conditions:</h5>
+				<br>
+
+				Special Conditions:
 				<label for="downpayment">I have a down payment</label>
 				<input type="checkbox" name="downpayment" value="Down payment">
 				<label for="outofstate">Out-of-state resident</label>
@@ -59,15 +87,23 @@
 				<label for="coding">Loan will be co-signed</label>
 				<input type="checkbox" name="cosigned" value="Loan will be co-signed">
 
-				<label for="comments">Comments</label>
-				<textarea name="comments"></textarea>
+				<br>
 
-				<label for="tel">Applicant Telephone Number</label>
-				<input type="tel" name="">
-				<label for="email">Applicant Email Address</label>
-				<input type="email" name="">
-				<label for="linkedin">Applicant LinkedIn URL</label>
-				<input type="linkedin" name="">
+				<label for="comments">Comments:</label>
+				<br>
+				<textarea name="comments"></textarea>
+				<br>
+				<label for="tel">Applicant Telephone Number:</label>
+				<br>
+				<input type="tel" name="tel" required />
+				<br>
+				<label for="email">Applicant Email Address:</label>
+				<br>
+				<input type="email" name="email" required placeholder="you@example.com" />
+				<br>
+				<label for="url">Applicant LinkedIn URL:</label>
+				<br>
+				<input type="url" name="website" required placeholder="http://www.linkedin.com/you"/>
 
 			</fieldset>
 
