@@ -39,7 +39,7 @@ HTML, CSS.
 
 ```
 git clone https://github.com/isabelramos/banking-form.git
-cd CSS-exercise-banking-form
+cd banking-form
 npm install http-server -g
 http-server -p 8080
 This will show in your browser at: http://localhost:8080
